@@ -2,7 +2,7 @@
 
 ESP32 + DHT22 + buzzer simulated in Wokwi, publishing sensor data over MQTT
 to a Google Colab notebook for storage, visualization and analysis.
-
+**Live simulation:** [Open in Wokwi](https://wokwi.com/projects/478515443539650561)
 ## How it works
 1. The ESP32 reads temperature and humidity from a DHT22 sensor.
 2. If temperature > 35 °C or humidity > 70 %, the buzzer sounds and `alarm = 1`.
@@ -30,10 +30,10 @@ to a Google Colab notebook for storage, visualization and analysis.
 
 ## Files
 - `sketch.ino`, `diagram.json`, `libraries.txt`, `wokwi-project.txt`: Wokwi project
-- `Untitled0.ipynb`: Colab notebook (data collection, plot, statistics)
+- `iot_analysis.ipynb`: Colab notebook (data collection, plot, statistics)
 
 ## How to run
-1. Open the project in Wokwi (add your Share link here) and press Play.
+1. Open the project in [Wokwi](https://wokwi.com/projects/478515443539650561) and press Play.
 2. Open the notebook in Google Colab.
 3. Run the install cell, then the data collection cell while Wokwi is running.
 4. Run the plot and statistics cells.
